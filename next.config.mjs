@@ -4,7 +4,7 @@ const nextConfig = {
   output: "export",
 
   /** Set base path. This is the slug of Github repo */
-  basePath: "/ashley-norman.github.io",
+  basePath: "",
 
   /** Disable server-based image optimization */
   images: {
