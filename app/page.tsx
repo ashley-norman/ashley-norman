@@ -18,10 +18,12 @@ export default function Home() {
           </a>
         </div>
         <div className="grow flex flex-col gap-4 place-items-center text-center justify-center">
-          <h1 className={`text-8xl font-bold ${styles.animate}`}>
+          <h1 className={`text-6xl lg:text-8xl font-bold ${styles.animate}`}>
             Ashley Norman
           </h1>
-          <h2 className="text-white text-3xl">Full-stack Software Engineer</h2>
+          <h2 className="text-white text-xl lg:text-3xl">
+            Full-stack Software Engineer
+          </h2>
           {/* <button className="text-white p-4 border-white border rounded-lg hover:bg-white hover:bg-opacity-10 transition">
             About Me
           </button> */}
