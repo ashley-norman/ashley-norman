@@ -6,6 +6,22 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gradient: linear-gradient(
+    150deg,
+    #ff83de 0%,
+    #63da92 19%,
+    #e8b84b 45%,
+    #6ac2fd 70%,
+    #ff83de 97%
+  );
+  --dark-gradient: linear-gradient(
+    150deg,
+    #ac0e82 0%,
+    #1b8646 19%,
+    #ad7d0c 45%,
+    #0b629c 70%,
+    #ac0e82 97%
+  );
 }
 
 @media (prefers-color-scheme: dark) {

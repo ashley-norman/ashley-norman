@@ -1,0 +1,17 @@
+.aboutMe p {
+  margin-bottom: 20px;
+}
+
+.image {
+  object-fit: cover;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+}
