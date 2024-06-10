@@ -27,6 +27,11 @@
   border-width: 1px;
   border-image-source: var(--gradient);
 }
+.gradientBorderTop {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
 .aboutMeButton {
   border-left: 0;
   border-right: 0;
@@ -44,7 +49,28 @@
   border-width: 3px;
 }
 
-.footer {
-  clip-path: polygon(0% 0%, 50% 3rem, 100% 0%, 100% 100%, 0% 100%);
-  padding-top: 4rem;
+.gradientBg {
+  background-image: var(--gradient);
+}
+.gradientBgDark {
+  background-image: var(--dark-gradient);
+}
+
+.gradientText {
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+}
+.darkGradientText {
+  background-image: var(--dark-gradient);
+  background-clip: text;
+  color: transparent;
+}
+
+.footerGradient {
+  width: 100%;
+  height: 30px;
+  background-image: var(--gradient);
+  background-size: 200% auto;
+  animation: textclip 5s linear infinite;
 }

@@ -15,9 +15,3 @@
     0% 20%
   );
 }
-
-.callout {
-  background-image: var(--dark-gradient);
-  background-clip: text;
-  color: transparent;
-}

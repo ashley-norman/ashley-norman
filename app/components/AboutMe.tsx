@@ -1,12 +1,13 @@
 import IAmA from "../IAmA";
 import Image from "next/image";
 import styles from "./about-me.styles.module.css";
+import commonStyles from "../styles.module.css";
 
 export default function AboutMe() {
   return (
     <>
       <div className={`flex flex-col md:flex-row md:gap-10 ${styles.aboutMe}`}>
-        <div className="min-w-fit flex flex-col gap-2">
+        <div className="min-w-fit flex flex-col gap-2 items-center">
           <Image
             src="/headshot-zoom.jpg"
             width={250}
@@ -30,7 +31,9 @@ export default function AboutMe() {
             knowledge in plain JavaScript, system architecture, and cloud
             technologies to ensure any application can function at scale. I have
             meticulous attention to detail and{" "}
-            <span className={`font-bold tracking-widest ${styles.callout}`}>
+            <span
+              className={`font-bold tracking-widest ${commonStyles.darkGradientText}`}
+            >
               I always sweat the small stuff.
             </span>
           </p>
