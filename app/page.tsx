@@ -44,7 +44,7 @@ const Section: React.FC<SectionProps> = ({
 };
 
 export default function Home() {
-  const footerClasses = `md:opacity-50 hover:opacity-100 cursor-pointer`;
+  const footerClasses = `opacity-50 hover:opacity-100 cursor-pointer`;
   return (
     <>
       <main>
