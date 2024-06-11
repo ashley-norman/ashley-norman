@@ -59,11 +59,13 @@
 .gradientText {
   background-image: var(--gradient);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 .darkGradientText {
   background-image: var(--dark-gradient);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
